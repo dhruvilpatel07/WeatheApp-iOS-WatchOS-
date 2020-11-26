@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1324CB8256F560B0057284E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1324CB7256F560B0057284E /* AppDelegate.swift */; };
+		A1324CBA256F560B0057284E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1324CB9256F560B0057284E /* SceneDelegate.swift */; };
+		A1324CBC256F560B0057284E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1324CBB256F560B0057284E /* ViewController.swift */; };
+		A1324CBF256F560B0057284E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1324CBD256F560B0057284E /* Main.storyboard */; };
+		A1324CC1256F560E0057284E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1324CC0256F560E0057284E /* Assets.xcassets */; };
+		A1324CC4256F560E0057284E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1324CC2256F560E0057284E /* LaunchScreen.storyboard */; };
+		A1324CC9256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1324CC8256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1324CCF256F560E0057284E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1324CCD256F560E0057284E /* Interface.storyboard */; };
+		A1324CD1256F56100057284E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1324CD0256F56100057284E /* Assets.xcassets */; };
+		A1324CD8256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1324CD7256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1324CDD256F56100057284E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1324CDC256F56100057284E /* InterfaceController.swift */; };
+		A1324CDF256F56100057284E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1324CDE256F56100057284E /* ExtensionDelegate.swift */; };
+		A1324CE1256F56100057284E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1324CE0256F56100057284E /* ComplicationController.swift */; };
+		A1324CE3256F56120057284E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1324CE2256F56120057284E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1324CCA256F560E0057284E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1324CAC256F560A0057284E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1324CC7256F560E0057284E;
+			remoteInfo = "A2_Dhruvilkumar_Patel WatchKit App";
+		};
+		A1324CD9256F56100057284E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1324CAC256F560A0057284E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1324CD6256F56100057284E;
+			remoteInfo = "A2_Dhruvilkumar_Patel WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1324CEA256F56120057284E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1324CD8256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1324CEE256F56120057284E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A1324CC9256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1324CB4256F560B0057284E /* A2_Dhruvilkumar_Patel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_Dhruvilkumar_Patel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1324CB7256F560B0057284E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1324CB9256F560B0057284E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1324CBB256F560B0057284E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1324CBE256F560B0057284E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1324CC0256F560E0057284E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1324CC3256F560E0057284E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1324CC5256F560E0057284E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1324CC8256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A2_Dhruvilkumar_Patel WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1324CCE256F560E0057284E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A1324CD0256F56100057284E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1324CD2256F56100057284E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1324CD7256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "A2_Dhruvilkumar_Patel WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1324CDC256F56100057284E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A1324CDE256F56100057284E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A1324CE0256F56100057284E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A1324CE2256F56120057284E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1324CE4256F56120057284E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1324CB1256F560B0057284E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1324CD4256F56100057284E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1324CAB256F560A0057284E = {
+			isa = PBXGroup;
+			children = (
+				A1324CB6256F560B0057284E /* A2_Dhruvilkumar_Patel */,
+				A1324CCC256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App */,
+				A1324CDB256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension */,
+				A1324CB5256F560B0057284E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1324CB5256F560B0057284E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1324CB4256F560B0057284E /* A2_Dhruvilkumar_Patel.app */,
+				A1324CC8256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App.app */,
+				A1324CD7256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1324CB6256F560B0057284E /* A2_Dhruvilkumar_Patel */ = {
+			isa = PBXGroup;
+			children = (
+				A1324CB7256F560B0057284E /* AppDelegate.swift */,
+				A1324CB9256F560B0057284E /* SceneDelegate.swift */,
+				A1324CBB256F560B0057284E /* ViewController.swift */,
+				A1324CBD256F560B0057284E /* Main.storyboard */,
+				A1324CC0256F560E0057284E /* Assets.xcassets */,
+				A1324CC2256F560E0057284E /* LaunchScreen.storyboard */,
+				A1324CC5256F560E0057284E /* Info.plist */,
+			);
+			path = A2_Dhruvilkumar_Patel;
+			sourceTree = "<group>";
+		};
+		A1324CCC256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A1324CCD256F560E0057284E /* Interface.storyboard */,
+				A1324CD0256F56100057284E /* Assets.xcassets */,
+				A1324CD2256F56100057284E /* Info.plist */,
+			);
+			path = "A2_Dhruvilkumar_Patel WatchKit App";
+			sourceTree = "<group>";
+		};
+		A1324CDB256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1324CDC256F56100057284E /* InterfaceController.swift */,
+				A1324CDE256F56100057284E /* ExtensionDelegate.swift */,
+				A1324CE0256F56100057284E /* ComplicationController.swift */,
+				A1324CE2256F56120057284E /* Assets.xcassets */,
+				A1324CE4256F56120057284E /* Info.plist */,
+			);
+			path = "A2_Dhruvilkumar_Patel WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1324CB3256F560B0057284E /* A2_Dhruvilkumar_Patel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1324CEF256F56120057284E /* Build configuration list for PBXNativeTarget "A2_Dhruvilkumar_Patel" */;
+			buildPhases = (
+				A1324CB0256F560B0057284E /* Sources */,
+				A1324CB1256F560B0057284E /* Frameworks */,
+				A1324CB2256F560B0057284E /* Resources */,
+				A1324CEE256F56120057284E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1324CCB256F560E0057284E /* PBXTargetDependency */,
+			);
+			name = A2_Dhruvilkumar_Patel;
+			productName = A2_Dhruvilkumar_Patel;
+			productReference = A1324CB4256F560B0057284E /* A2_Dhruvilkumar_Patel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1324CC7256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1324CEB256F56120057284E /* Build configuration list for PBXNativeTarget "A2_Dhruvilkumar_Patel WatchKit App" */;
+			buildPhases = (
+				A1324CC6256F560E0057284E /* Resources */,
+				A1324CEA256F56120057284E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1324CDA256F56100057284E /* PBXTargetDependency */,
+			);
+			name = "A2_Dhruvilkumar_Patel WatchKit App";
+			productName = "A2_Dhruvilkumar_Patel WatchKit App";
+			productReference = A1324CC8256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A1324CD6256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1324CE7256F56120057284E /* Build configuration list for PBXNativeTarget "A2_Dhruvilkumar_Patel WatchKit Extension" */;
+			buildPhases = (
+				A1324CD3256F56100057284E /* Sources */,
+				A1324CD4256F56100057284E /* Frameworks */,
+				A1324CD5256F56100057284E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A2_Dhruvilkumar_Patel WatchKit Extension";
+			productName = "A2_Dhruvilkumar_Patel WatchKit Extension";
+			productReference = A1324CD7256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1324CAC256F560A0057284E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A1324CB3256F560B0057284E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A1324CC7256F560E0057284E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A1324CD6256F56100057284E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A1324CAF256F560A0057284E /* Build configuration list for PBXProject "A2_Dhruvilkumar_Patel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1324CAB256F560A0057284E;
+			productRefGroup = A1324CB5256F560B0057284E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1324CB3256F560B0057284E /* A2_Dhruvilkumar_Patel */,
+				A1324CC7256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App */,
+				A1324CD6256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1324CB2256F560B0057284E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1324CC4256F560E0057284E /* LaunchScreen.storyboard in Resources */,
+				A1324CC1256F560E0057284E /* Assets.xcassets in Resources */,
+				A1324CBF256F560B0057284E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1324CC6256F560E0057284E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1324CD1256F56100057284E /* Assets.xcassets in Resources */,
+				A1324CCF256F560E0057284E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1324CD5256F56100057284E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1324CE3256F56120057284E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1324CB0256F560B0057284E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1324CBC256F560B0057284E /* ViewController.swift in Sources */,
+				A1324CB8256F560B0057284E /* AppDelegate.swift in Sources */,
+				A1324CBA256F560B0057284E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1324CD3256F56100057284E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1324CDF256F56100057284E /* ExtensionDelegate.swift in Sources */,
+				A1324CDD256F56100057284E /* InterfaceController.swift in Sources */,
+				A1324CE1256F56100057284E /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1324CCB256F560E0057284E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1324CC7256F560E0057284E /* A2_Dhruvilkumar_Patel WatchKit App */;
+			targetProxy = A1324CCA256F560E0057284E /* PBXContainerItemProxy */;
+		};
+		A1324CDA256F56100057284E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1324CD6256F56100057284E /* A2_Dhruvilkumar_Patel WatchKit Extension */;
+			targetProxy = A1324CD9256F56100057284E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1324CBD256F560B0057284E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1324CBE256F560B0057284E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1324CC2256F560E0057284E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1324CC3256F560E0057284E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1324CCD256F560E0057284E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1324CCE256F560E0057284E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1324CE5256F56120057284E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1324CE6256F56120057284E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1324CE8256F56120057284E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPAWQLXXWM;
+				INFOPLIST_FILE = "A2_Dhruvilkumar_Patel WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvil.A2-Dhruvilkumar-Patel.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A1324CE9256F56120057284E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPAWQLXXWM;
+				INFOPLIST_FILE = "A2_Dhruvilkumar_Patel WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvil.A2-Dhruvilkumar-Patel.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		A1324CEC256F56120057284E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPAWQLXXWM;
+				IBSC_MODULE = A2_Dhruvilkumar_Patel_WatchKit_Extension;
+				INFOPLIST_FILE = "A2_Dhruvilkumar_Patel WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvil.A2-Dhruvilkumar-Patel.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A1324CED256F56120057284E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPAWQLXXWM;
+				IBSC_MODULE = A2_Dhruvilkumar_Patel_WatchKit_Extension;
+				INFOPLIST_FILE = "A2_Dhruvilkumar_Patel WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvil.A2-Dhruvilkumar-Patel.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		A1324CF0256F56120057284E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPAWQLXXWM;
+				INFOPLIST_FILE = A2_Dhruvilkumar_Patel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvil.A2-Dhruvilkumar-Patel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1324CF1256F56120057284E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPAWQLXXWM;
+				INFOPLIST_FILE = A2_Dhruvilkumar_Patel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhruvil.A2-Dhruvilkumar-Patel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1324CAF256F560A0057284E /* Build configuration list for PBXProject "A2_Dhruvilkumar_Patel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1324CE5256F56120057284E /* Debug */,
+				A1324CE6256F56120057284E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1324CE7256F56120057284E /* Build configuration list for PBXNativeTarget "A2_Dhruvilkumar_Patel WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1324CE8256F56120057284E /* Debug */,
+				A1324CE9256F56120057284E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1324CEB256F56120057284E /* Build configuration list for PBXNativeTarget "A2_Dhruvilkumar_Patel WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1324CEC256F56120057284E /* Debug */,
+				A1324CED256F56120057284E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1324CEF256F56120057284E /* Build configuration list for PBXNativeTarget "A2_Dhruvilkumar_Patel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1324CF0256F56120057284E /* Debug */,
+				A1324CF1256F56120057284E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1324CAC256F560A0057284E /* Project object */;
+}
