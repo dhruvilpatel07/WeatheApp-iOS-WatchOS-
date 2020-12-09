@@ -10,6 +10,6 @@
  - Watch connectivity sessions
  
  ## Demo of app
- ![](Images/iphone.png) ![](Images/watch.png)
+ <img src="Images/iphone.png" width="400"> <img src="Images/watch.png" width="350">
  
  ![](Images/app.gif)
